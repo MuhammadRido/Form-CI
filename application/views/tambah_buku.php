@@ -6,6 +6,13 @@
 	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/dataTables.bootstrap4.min.css">
 </head>
 <body>
+<h1><center><font face="century gothic">INPUT DATA BUKU</font></center></h1>
+<style>
+body {
+    background-color: #7FFFD4; 
+}
+</style>
+
 
 	<div class="container" style="margin-top: 80px">
 		<div class="col-md-12">
@@ -32,7 +39,7 @@
 			  </div>
 			  
 			  <button type="submit" class="btn btn-md btn-success">Simpan</button>
-			  <button type="reset" class="btn btn-md btn-warning">reset</button>
+			  
 			<?php echo form_close() ?>
 		</div>
 	</div>
